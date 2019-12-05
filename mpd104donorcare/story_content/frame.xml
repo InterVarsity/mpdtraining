@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnabnsnfns00000000111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnabnsnfns00000000011" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
   <layouts>
-    <layout name="npnxnanbsnfns10110000111" font="Avenir LT Std 45 Book" controllayout="npnxnanbsnfns10110000111" colorscheme="npnxnabnsnfns00000000111" string_table="npnxnabnsnfns00000000111" />
-    <layout name="pxabnsnfns10110000111" font="Avenir LT Std 45 Book" controllayout="pxabnsnfns10110000111" colorscheme="npnxnabnsnfns00000000111" string_table="npnxnabnsnfns00000000111" />
-    <layout name="npxnabnsnfns10110000111" font="Avenir LT Std 45 Book" controllayout="npxnabnsnfns10110000111" colorscheme="npnxnabnsnfns00000000111" string_table="npnxnabnsnfns00000000111" />
-    <layout name="npnxnanbnsnfns10110000111" font="Avenir LT Std 45 Book" controllayout="npnxnanbnsnfns10110000111" colorscheme="npnxnabnsnfns00000000111" string_table="npnxnabnsnfns00000000111" />
-    <layout name="pxabnsnfns10110000110" font="Avenir LT Std 45 Book" controllayout="pxabnsnfns10110000110" colorscheme="npnxnabnsnfns00000000111" string_table="npnxnabnsnfns00000000111" />
-    <layout name="npxabnsnfns00000000111" font="Avenir LT Std 45 Book" controllayout="npxabnsnfns00000000111" colorscheme="npnxnabnsnfns00000000111" string_table="npnxnabnsnfns00000000111" />
-    <layout name="pxabnsnfns00000000111" font="Avenir LT Std 45 Book" controllayout="pxabnsnfns00000000111" colorscheme="npnxnabnsnfns00000000111" string_table="npnxnabnsnfns00000000111" />
-    <layout name="npnxnabnsnfns00000000111" font="Avenir LT Std 45 Book" controllayout="npnxnabnsnfns00000000111" colorscheme="npnxnabnsnfns00000000111" string_table="npnxnabnsnfns00000000111" />
-    <layout name="pxanbnsnfns00000000111" font="Avenir LT Std 45 Book" controllayout="pxanbnsnfns00000000111" colorscheme="npnxnabnsnfns00000000111" string_table="npnxnabnsnfns00000000111" />
+    <layout name="npnxnanbsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npnxnanbsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
+    <layout name="pxabnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="pxabnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
+    <layout name="npxnabnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npxnabnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
+    <layout name="npnxnanbnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npnxnanbnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
+    <layout name="pxabnsnfns00000000010" font="Avenir LT Std 45 Book" controllayout="pxabnsnfns00000000010" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
+    <layout name="npxabnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npxabnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
+    <layout name="npnxnabnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npnxnabnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
+    <layout name="pxanbnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="pxanbnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -33,13 +32,6 @@
             <listitems>
               <listitem name="resources" value="false" group="linkright" />
               <listitem name="outline" value="false" group="linkright" />
-              <listitem name="customlink" value="true" group="linkright">
-                <properties>
-                  <property name="title" value="Course Menu" />
-                  <property name="data" value="6n9G5FcIMK1" />
-                  <property name="ignoreSlideLock" value="true" />
-                </properties>
-              </listitem>
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
@@ -68,17 +60,17 @@
       </optiongroup>
       <optiongroup name="controls">
         <options>
-          <option name="volume" value="true" />
-          <option name="seekbar" value="true">
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
           <option name="search" value="true" />
-          <option name="pauseplay" value="true" />
-          <option name="replay" value="true" />
-          <option name="closed_captions" value="true">
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="closed_captions" value="false">
             <options>
               <option name="font" value="Avenir LT Std 45 Book" />
             </options>
@@ -100,11 +92,11 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10110000111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="npnxnanbsnfns00000000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -123,11 +115,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10110000111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="pxabnsnfns00000000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
@@ -146,11 +138,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10110000111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="npxnabnsnfns00000000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
@@ -169,11 +161,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10110000111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="npnxnanbnsnfns00000000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -192,11 +184,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10110000110">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
+    <control_layout name="pxabnsnfns00000000010">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
@@ -215,8 +207,8 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npxabnsnfns00000000111">
-      <control name="volume" enabled="true" />
+    <control_layout name="npxabnsnfns00000000011">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -238,31 +230,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="true" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="npnxnabnsnfns00000000111">
-      <control name="volume" enabled="true" />
+    <control_layout name="npnxnabnsnfns00000000011">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -284,8 +253,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxanbnsnfns00000000111">
-      <control name="volume" enabled="true" />
+    <control_layout name="pxanbnsnfns00000000011">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -309,7 +278,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnabnsnfns00000000111">
+    <colorscheme name="npnxnabnsnfns00000000011">
       <color_group name="HTML">
         <group_colors>
           <color name="htmlpage_bg_color">
@@ -1309,7 +1278,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnabnsnfns00000000111">
+    <string_table name="npnxnabnsnfns00000000011">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to Menu</string>

@@ -6,10 +6,9 @@
     <layout name="npxnabnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npxnabnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
     <layout name="npnxnanbnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npnxnanbnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
     <layout name="pxabnsnfns00000000010" font="Avenir LT Std 45 Book" controllayout="pxabnsnfns00000000010" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
-    <layout name="npxabnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npxabnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
-    <layout name="npnxnabnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npnxnabnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
-    <layout name="pnxanbnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="pnxanbnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
+    <layout name="pxnanbnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="pxnanbnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
     <layout name="pxanbnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="pxanbnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
+    <layout name="npnxnabnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npnxnabnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -208,61 +207,15 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npxabnsnfns00000000011">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="true" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="npnxnabnsnfns00000000011">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="true" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="pnxanbnsnfns00000000011">
+    <control_layout name="pxnanbnsnfns00000000011">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -287,6 +240,29 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnabnsnfns00000000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1368,27 +1344,33 @@
             <slidelink slideid="_player.6Zv303dDQqz.5ohFCpb3iM0" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Zv303dDQqz.6hqMmCdW0wS" displaytext="Take some time to reflect on some of the strategies you learned in this course. What stood out to you?" expand="false" type="slide" />
             <slidelink slideid="_player.6Zv303dDQqz.6O5X5K2SHzl" displaytext="Next Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.6Zv303dDQqz.5xyNySmB0mw" displaytext="Annual" expand="false" type="slide" />
+            <slidelink slideid="_player.6Zv303dDQqz.5ZUI3Vf1xm6" displaytext="Quarterly Schools" expand="false" type="slide" />
+            <slidelink slideid="_player.6Zv303dDQqz.6PFHTtdgFNS" displaytext="How to Structure Time" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5ybekooxBwN" displaytext="MPD Cycle - Donor Care" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5ybekooxBwN.5psM0fjU6Pt" displaytext="Donor Care Title Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5ybekooxBwN.5mVSxlyaOkm" displaytext="Navigation" expand="false" type="slide" />
+            <slidelink slideid="_player.5ybekooxBwN.5oJRZBu1Gdt" displaytext="Course Navigation" expand="false" type="slide" />
             <slidelink slideid="_player.5ybekooxBwN.6TDTfiAg42a" displaytext="Big Idea" expand="false" type="slide" />
+            <slidelink slideid="_player.5ybekooxBwN.6KwoUbQNecV" displaytext="How do ongoing MPD relationships" expand="false" type="slide" />
             <slidelink slideid="_player.5ybekooxBwN.5yyQFS2VlZQ" displaytext="Big Idea" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.638ZtBxvTMb" displaytext="General MPD" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.638ZtBxvTMb.5pntAZznRWQ" displaytext="General MPD Intro" expand="false" type="slide" />
-            <slidelink slideid="_player.638ZtBxvTMb.5kEEZo2EnST" displaytext="How do ongoing MPD relationships" expand="false" type="slide" />
+            <slidelink slideid="_player.638ZtBxvTMb.5kEEZo2EnST" displaytext="Budget Increase" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.6H8R9u2kISt" displaytext="How do ongoing MPD relationships" expand="false" type="slide" />
+            <slidelink slideid="_player.638ZtBxvTMb.5lQVwukgKB4" displaytext="Make Time" expand="false" type="slide" />
+            <slidelink slideid="_player.638ZtBxvTMb.6CiYE1Kjjyl" displaytext="Protect Time" expand="false" type="slide" />
+            <slidelink slideid="_player.638ZtBxvTMb.6pXmBOw7LXo" displaytext="Accountability" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.5tJEN3YpMEo" displaytext="How do ongoing MPD relationships" expand="false" type="slide" />
-            <slidelink slideid="_player.638ZtBxvTMb.5Yqg1L80KoK" displaytext="Intro to MPD Sprints" expand="false" type="slide" />
-            <slidelink slideid="_player.638ZtBxvTMb.6VEUnTdFpDs" displaytext="Timeline Branch" expand="false" type="slide" />
-            <slidelink slideid="_player.638ZtBxvTMb.6X1R9kT90qO" displaytext="Annual" expand="false" type="slide" />
-            <slidelink slideid="_player.638ZtBxvTMb.5siQrygmsh8" displaytext="Quarterly Schools" expand="false" type="slide" />
-            <slidelink slideid="_player.638ZtBxvTMb.5fIwTL51VoR" displaytext="Semester Schools" expand="false" type="slide" />
+            <slidelink slideid="_player.638ZtBxvTMb.5Yqg1L80KoK" displaytext="Pacing MPD" expand="false" type="slide" />
+            <slidelink slideid="_player.638ZtBxvTMb.6VEUnTdFpDs" displaytext="Schedules" expand="false" type="slide" />
+            <slidelink slideid="_player.638ZtBxvTMb.6aukY8AJyz7" displaytext="Exit" expand="false" type="slide" />
+            <slidelink slideid="_player.638ZtBxvTMb.5fIwTL51VoR" displaytext="Annual Touchpoints" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.6AHqyTLeZ3g" displaytext="How to Structure Time" expand="false" type="slide" />
           </links>
         </slidelink>

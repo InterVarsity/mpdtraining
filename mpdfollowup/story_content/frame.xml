@@ -8,8 +8,8 @@
     <layout name="pxabnsnfns00011000010" font="Avenir LT Std 45 Book" controllayout="pxabnsnfns00011000010" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
     <layout name="npnxnabnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npnxnabnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
     <layout name="pxabnsnfns10110000011" font="Avenir LT Std 45 Book" controllayout="pxabnsnfns10110000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
-    <layout name="pnxanbnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="pnxanbnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
     <layout name="pxabnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="pxabnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
+    <layout name="pnxanbnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="pnxanbnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
     <layout name="npxabnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npxabnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
   </layouts>
   <control_options>
@@ -18,7 +18,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="MPD Follow-Up Revision" />
+              <option name="title_text" value="MPD Follow-Up update" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -262,16 +262,16 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pnxanbnsnfns00000000011">
+    <control_layout name="pxabnsnfns00000000011">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
-      <control name="next" enabled="false" />
+      <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="false" />
+      <control name="swiperight" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -285,16 +285,16 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000011">
+    <control_layout name="pnxanbnsnfns00000000011">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
+      <control name="next" enabled="false" />
       <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
+      <control name="swiperight" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />

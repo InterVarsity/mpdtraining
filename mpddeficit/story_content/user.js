@@ -2,16 +2,16 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6GGRnaBaEBn":
+      case "63UcNMbsa08":
         Script1();
         break;
-      case "6F11ir1dVu0":
+      case "6eMLHH5KRLN":
         Script2();
         break;
-      case "6QbeVqlfb2P":
+      case "5bxHExtxHnF":
         Script3();
         break;
-      case "6rHw2NzTqhe":
+      case "5kU1X1VG5RZ":
         Script4();
         break;
   }
@@ -33,7 +33,47 @@ if (upOrdown >= .5) {
     } else{
     targetNumber = baseNumber
     };
-player.SetVar("AverageDonation", targetNumber); 
+player.SetVar("AverageDonation", targetNumber);
+
+var targetNumber2 = player.GetVar("NumberOfPartners");
+var baseNumber2 = Math.floor(targetNumber2);
+var upOrdown = targetNumber2 - baseNumber2
+if (upOrdown >= .5) {
+    targetNumber2 = baseNumber2 +1
+    } else{
+    targetNumber2 = baseNumber2
+    };
+player.SetVar("NumberOfPartners", targetNumber2);
+
+var targetNumber3 = player.GetVar("NumberOfProspects");
+var baseNumber3 = Math.floor(targetNumber3);
+var upOrdown = targetNumber3 - baseNumber3
+if (upOrdown >= .5) {
+    targetNumber3 = baseNumber3 +1
+    } else{
+    targetNumber3 = baseNumber3
+    };
+player.SetVar("NumberOfProspects", targetNumber3); 
+
+var targetNumber4 = player.GetVar("Asks");
+var baseNumber4 = Math.floor(targetNumber4);
+var upOrdown = targetNumber4 - baseNumber4
+if (upOrdown >= .5) {
+    targetNumber4 = baseNumber4 +1
+    } else{
+    targetNumber4 = baseNumber4
+    };
+player.SetVar("Asks", targetNumber4); 
+
+var targetNumber5 = player.GetVar("Engage");
+var baseNumber5 = Math.floor(targetNumber5);
+var upOrdown = targetNumber5 - baseNumber5
+if (upOrdown >= .5) {
+    targetNumber5 = baseNumber5 +1
+    } else{
+    targetNumber5 = baseNumber5
+    };
+player.SetVar("Engage", targetNumber5); 
 }
 
 function Script3()
@@ -52,6 +92,46 @@ if (upOrdown >= .5) {
     } else{
     targetNumber = baseNumber
     };
-player.SetVar("AverageDonation", targetNumber); 
+player.SetVar("AverageDonation", targetNumber);
+
+var targetNumber2 = player.GetVar("NumberOfPartners");
+var baseNumber2 = Math.floor(targetNumber2);
+var upOrdown = targetNumber2 - baseNumber2
+if (upOrdown >= .5) {
+    targetNumber2 = baseNumber2 +1
+    } else{
+    targetNumber2 = baseNumber2
+    };
+player.SetVar("NumberOfPartners", targetNumber2);
+
+var targetNumber3 = player.GetVar("NumberOfProspects");
+var baseNumber3 = Math.floor(targetNumber3);
+var upOrdown = targetNumber3 - baseNumber3
+if (upOrdown >= .5) {
+    targetNumber3 = baseNumber3 +1
+    } else{
+    targetNumber3 = baseNumber3
+    };
+player.SetVar("NumberOfProspects", targetNumber3); 
+
+var targetNumber4 = player.GetVar("Asks");
+var baseNumber4 = Math.floor(targetNumber4);
+var upOrdown = targetNumber4 - baseNumber4
+if (upOrdown >= .5) {
+    targetNumber4 = baseNumber4 +1
+    } else{
+    targetNumber4 = baseNumber4
+    };
+player.SetVar("Asks", targetNumber4); 
+
+var targetNumber5 = player.GetVar("Engage");
+var baseNumber5 = Math.floor(targetNumber5);
+var upOrdown = targetNumber5 - baseNumber5
+if (upOrdown >= .5) {
+    targetNumber5 = baseNumber5 +1
+    } else{
+    targetNumber5 = baseNumber5
+    };
+player.SetVar("Engage", targetNumber5); 
 }
 

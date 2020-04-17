@@ -2,27 +2,19 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6VoUmtxQqf7":
+      case "5ltsD167L1F":
         Script1();
         break;
-      case "5dDpgrpnHNV":
+      case "6FlKythMGVu":
         Script2();
         break;
-      case "6Gp7LnKxoQP":
+      case "6ja9sRP1LaD":
         Script3();
-        break;
-      case "5iJvjSwo0jD":
-        Script4();
         break;
   }
 }
 
 function Script1()
-{
-  window.open("print.html","_blank");
-}
-
-function Script2()
 {
   var player = GetPlayer();
 var targetNumber = player.GetVar("AverageDonation");
@@ -76,12 +68,12 @@ if (upOrdown >= .5) {
 player.SetVar("Engage", targetNumber5); 
 }
 
-function Script3()
+function Script2()
 {
   window.open("print.html","_blank");
 }
 
-function Script4()
+function Script3()
 {
   var player = GetPlayer();
 var targetNumber = player.GetVar("AverageDonation");

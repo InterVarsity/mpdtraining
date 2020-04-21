@@ -2,17 +2,14 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5jMO9xQ5LUV":
+      case "6esHfiIKzdd":
         Script1();
         break;
-      case "6eyDBTQh8Qd":
+      case "6C4Ad4E5sw0":
         Script2();
         break;
-      case "6S8HS13CF49":
+      case "6UNUCSyZgsq":
         Script3();
-        break;
-      case "6POIZBuiGnl":
-        Script4();
         break;
   }
 }
@@ -77,11 +74,6 @@ function Script2()
 }
 
 function Script3()
-{
-  window.print();
-}
-
-function Script4()
 {
   var player = GetPlayer();
 var targetNumber = player.GetVar("AverageDonation");

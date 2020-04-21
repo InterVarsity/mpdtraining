@@ -4,8 +4,8 @@ var player = opener?opener.top.GetPlayer():{} ;
 /* ------------------ this is ONLY for debugging ----------- */
 if (!player.GetVar) player={
     GetVar : function(idx) {
-        return {printTitle:"Deficit Sprint Plan", printUserName:"Unknown"}[idx]
-	}
+        return {printTitle:"MPD DEFICIT PLAN", printUserName:"Unknown"}[idx]
+  }
 }
 /* ------------------ the above is ONLY for debugging ----------- */
 $(function() {
@@ -13,9 +13,9 @@ $(function() {
     $("#print").text("SAVE").on("click",function() { window.focus(); window.print() })
     $("#printDiv").show();
   }
-  // var title = player.GetVar("printTitle"), userName = player.GetVar("printUserName");
-  // $("#title").html(title);
-  // $("#userName").html(userName);
+  var title = player.GetVar("printTitle"), userName = player.GetVar("printUserName");
+  $("#title").html(title);
+  $("#userName").html(userName);
   $("#date").html(curr_month + "." + curr_date + "." + curr_year);
   var numberOfAnswers = $(".answer").length;
   for (var i=1;i<=numberOfAnswers;i++) {

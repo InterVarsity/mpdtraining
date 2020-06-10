@@ -7,7 +7,9 @@
     <layout name="npnxnanbnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npnxnanbnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
     <layout name="pxabnsnfns00000000010" font="Avenir LT Std 45 Book" controllayout="pxabnsnfns00000000010" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
     <layout name="npnxnabnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="npnxnabnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
+    <layout name="pxabnsnfns10110000011" font="Avenir LT Std 45 Book" controllayout="pxabnsnfns10110000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
     <layout name="pnxanbnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="pnxanbnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
+    <layout name="pxanbnsnfns00000000011" font="Avenir LT Std 45 Book" controllayout="pxanbnsnfns00000000011" colorscheme="npnxnabnsnfns00000000011" string_table="npnxnabnsnfns00000000011" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -229,6 +231,29 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
+    <control_layout name="pxabnsnfns10110000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
     <control_layout name="pnxanbnsnfns00000000011">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
@@ -237,6 +262,29 @@
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxanbnsnfns00000000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="false" />
       <control name="submit" enabled="false" />
@@ -1340,14 +1388,16 @@
         <slidelink slideid="_player.638ZtBxvTMb" displaytext="Deficit Plans" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.638ZtBxvTMb.5lQVwukgKB4" displaytext="Creating a 4 Week Plan" expand="false" type="slide" />
+            <slidelink slideid="_player.638ZtBxvTMb.6lZXGSKE8fY" displaytext="Creating an 8 Week Plan" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.6D41eoIsJFa" displaytext="MPD Plan" expand="false" type="slide" />
-            <slidelink slideid="_player.638ZtBxvTMb.6mfEQSC1oLs" displaytext="Creating an 8 Week Plan" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.6H8R9u2kISt" displaytext="Week 1" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.61BZMAOaqJn" displaytext="Week 2" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.62bIuH4ngCs" displaytext="Week 3" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.6Wc5Iv6pJXr" displaytext="Week 4" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.6ZeY8HqgTmE" displaytext="Summary" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.6FS7p0bwco2" displaytext="Preparation" expand="false" type="slide" />
+            <slidelink slideid="_player.638ZtBxvTMb.5hzYVYm2rub" displaytext="Reflection" expand="false" type="slide" />
+            <slidelink slideid="_player.638ZtBxvTMb.5hCrdG3cqsf" displaytext="Testimony" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.6VEUnTdFpDs" displaytext="Schedules" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.6aukY8AJyz7" displaytext="Exit" expand="false" type="slide" />
             <slidelink slideid="_player.638ZtBxvTMb.6ekVfoCCcc1" displaytext="Exit" expand="false" type="slide" />

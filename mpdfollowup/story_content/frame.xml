@@ -1336,6 +1336,11 @@
       <string id="acc_definition">definition</string>
       <string id="glossary">Glossary</string>
       <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="togglezoom">Switch zoom modes</string>
       <string id="outline">MENU</string>
       <string id="disabled_orientation">Please rotate your device</string>
       <string id="next">Next</string>
@@ -1456,7 +1461,7 @@
       <slidetext slideid="6DSgaBnXD0B.5uU2tksE0Y7" slidebank="false" type="slide">what are some challenges you might face with following up with these people? be specific. type your text here next next next next next</slidetext>
       <slidetext slideid="6DSgaBnXD0B.6n2LSxRdOyT" slidebank="false" type="slide">what are some possible solutions to your challenges? type your text here next next next next next</slidetext>
       <slidetext slideid="6DSgaBnXD0B.6cNWS5Vvt4e" slidebank="false" type="slide">when will you follow up? add this to your calendar now. type your text here next next next next next</slidetext>
-      <slidetext slideid="6DSgaBnXD0B.6ZEKKOGkk3z" slidebank="false" type="slide"> view and save  your plan view and save  your plan view and save  your plan view and save  your plan view and save  your plan instructions click the button on the right to open a new window that will allow you to save your follow-up plan. continue with the course by clicking the button below. continue continue continue continue continue</slidetext>
+      <slidetext slideid="6DSgaBnXD0B.6ZEKKOGkk3z" slidebank="false" type="slide">follow up plan for %printusername% my follow-up goals this week are:%q1% the obstacles to my goals are:%q2% my options are:%q3% the next steps for me to reach my goals are:%q4% instructions take a screenshot of your custom plan to the right for future reference! continue continue continue continue continue</slidetext>
       <slidetext slideid="6BFnDF6Nrk7.6hO0NRkGeJl" slidebank="false" type="slide">how to structure mpd goals g r o w goal what you’re trying to accomplish reality obstacles in the way of achieving your goals options ideas to reach your goals will your plan to follow through on your options</slidetext>
       <slidetext slideid="6BFnDF6Nrk7.5Xim4DxaJLA" slidebank="false" type="slide"> here’s a summary of the course download download download download download x x x x x x  how to identify mentors to help you stay accountable identify existing mentors: who has helped you grow in the past? identify potential mentors: is there anyone in your immediate community – such someone at your church or someone else in the organization – that you admire for their productivity and efficiency?   set regular meeting times with them to track your progress.  x x x x x x additional resources contact mpd contact mpd contact mpd contact mpd contact mpd more follow-up scripts more follow-up scripts more follow-up scripts more follow-up scripts more follow-up scripts after the ask after the ask after the ask after the ask after the ask set up recurring gifts online set up recurring gifts online set up recurring gifts online set up recurring gifts online set up recurring gifts online continue continue continue continue continue</slidetext>
     </search>

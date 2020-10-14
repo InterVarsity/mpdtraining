@@ -1,10 +1,45 @@
-<html>
+<html lang="en-US">
 	<head>
 		<!-- Created using Storyline 360 - http://www.articulate.com  --> 
-		<!-- version: 3.36.21213.0 --> 
+		<!-- version: 3.44.23192.0 --> 
 
 		<title>MPD Follow-Up Course</title>
-		
+    <style>
+      @font-face {
+        font-family: "Open Sans Full";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Open Sans"),
+             local("OpenSans"),
+             url(html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff) format("woff")
+      }
+      body {
+        background-color: #F7F7F7;
+      }
+      h1 {
+        color: #636363;
+        font-family: "Open Sans Full", Helvetica, sans-serif;
+        font-size: 150%;
+        margin-bottom: 92px;
+        padding-bottom: 0;
+      }
+
+      button {
+        background-color: #FFF;
+        border: 1px solid #636363;
+        border-radius: 80px;
+        box-shadow: 2px 3px 4px 1px rgba(39, 39, 39, 0.33);
+        color: #636363;
+        font-family: "Open Sans Full", Helvetica, sans-serif;
+        font-size: 100%;
+        padding: 20px 50px;
+      }
+      img {
+        height: 15px;
+        width: 15px;
+        margin-left: 8px;
+      }
+    </style>
 		<script>
 			
 			/******************************************************************************/
@@ -88,7 +123,8 @@
 				<tr>
 					<td>
 						<center>
-							<a href="#" onClick="javascript:void(LaunchContent())"><img src="story_content/orange_launch_normal.gif" style="border-style: none"/></a>
+              <h1 tabIndex="-1">MPD Follow-Up Course</h1>
+							<button onclick="LaunchContent()" aria-label="Launch course: opens in new window">Launch course <img src="story_content/external_window.png" style="border-style: none; height: 14px; width: 14px;" tabIndex="-1" aria-hidden="true"/></button>
 						</center>
 					</td>
 				</tr>
